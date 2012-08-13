@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xs:schema xmlns="http://www.collada.org/2005/11/COLLADASchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.collada.org/2005/11/COLLADASchema" elementFormDefault="qualified" version="1.4.1" xml:lang="EN" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema http://www.w3.org/2001/XMLSchema.xsd">
+<xs:schema xmlns="http://www.collada.org/2005/11/COLLADASchema" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.collada.org/2005/11/COLLADASchema" elementFormDefault="qualified" version="1.4.1" xml:lang="EN" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema http://www.w3.org/2001/XMLSchema.xsd" ecore:package="org.khronos.collada">
 	<!-- BEGIN COLLADA Format Schema -->
 	<xs:annotation>
 		<xs:documentation>
