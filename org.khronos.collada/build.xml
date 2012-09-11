@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ====================================================================== 
+     11.09.2012 10:31:24                                                        
+
+     collada.ecore    
+     Build the EMF COLLADA data structure
+                   
+     krso02_admin                                                                
+     ====================================================================== -->
+<project name="collada.ecore" default="default">
+	<description>
+            Build the EMF COLLADA data structure
+    </description>
+
+	<!-- ================================= 
+          target: default              
+         ================================= -->
+	<target name="default" depends="depends" description="Build the EMF COLLADA data structure">
+		<emf.Ecore2Java model="./model/collada.ecore" genModel="./model/collada.genmodel" generatemodelproject="true" generateeditproject="false" generateeditorproject="false" reconcileGenModel="keep" />
+	</target>
+
+	<!-- - - - - - - - - - - - - - - - - - 
+          target: depends                      
+         - - - - - - - - - - - - - - - - - -->
+	<target name="depends">
+	</target>
+
+</project>
